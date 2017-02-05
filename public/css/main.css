@@ -1,0 +1,30 @@
+.ufbitcoin {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.signup {
+  height:600px;
+}
+
+.input-group{
+  margin-top: 50px;
+}
+
+.copy {
+  height:300px;
+}
+
+.navbar {
+  background-color:#fff !important;
+}
+
+.container {
+  margin-left: 0px !important;
+}
+
+.nav li a {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
