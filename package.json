@@ -1,7 +1,6 @@
 {
   "name": "ufbitcoinclub",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleczander93/ufbitcoinclub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aleczander93/ufbitcoinclub/issues"
+  },
+  "homepage": "https://github.com/Aleczander93/ufbitcoinclub#readme",
+  "description": ""
 }
