@@ -1,7 +1,15 @@
 .ufbitcoin {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 125px;
+}
+
+.btn-info {
+  margin-top: 100px !important;
+  margin-bottom: 120px !important;
+  background-color: orange !important;
+  border-color: white !important;
+  width:200px;
 }
 
 .signup {
@@ -13,7 +21,8 @@
 }
 
 .copy {
-  height:300px;
+  padding-top: 50px;
+  height:600px;
 }
 
 .navbar {
