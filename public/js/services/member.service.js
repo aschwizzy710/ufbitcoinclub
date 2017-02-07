@@ -11,15 +11,15 @@
       create: createOneMember
     };
 
-    // function init(){ // this is going to make our first data request upon file load
-    //   $http.get('/members')
-    //         .then(function(response){
-    //           albums = response.data.members;
-    //         })
-    //         .catch(function(err){
-    //           console.log(err);
-    //         });
-    // }
+    function init(){ // this is going to make our first data request upon file load
+      $http.get('/members')
+            .then(function(response){
+              members = response.data.members;
+            })
+            .catch(function(err){
+              console.log(err);
+            });
+    }
 
     function createOneMember(member){
       $http.post('/members', member)
