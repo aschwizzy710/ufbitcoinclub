@@ -8,15 +8,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aleczander93/ufbitcoinclub.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Aleczander93/ufbitcoinclub/issues"
-  },
-  "homepage": "https://github.com/Aleczander93/ufbitcoinclub#readme",
-  "description": ""
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1"
+  }
 }
