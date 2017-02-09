@@ -7,11 +7,28 @@ h1 {
   font-family: metropolis;
 }
 
+#land{
+background-image: url('/images/background.png');
+background-size: 100vw;
+}
+
 .ufbitcoin {
   display: flex;
   justify-content: center;
   margin-top: 125px;
 }
+
+li a{
+  font-family: Metropolis;
+  font-size: 18px;
+}
+
+.title {
+  color:#fff;
+  font-size: 90px;
+  font-family: Metropolis;
+}
+
 
 .btn-info {
   margin-top: 100px !important;
@@ -23,6 +40,7 @@ h1 {
 
 .signup {
   height:600px;
+  font-family: Metropolis;
 }
 
 .input-group{
@@ -31,12 +49,17 @@ h1 {
 
 .copy {
   padding-top: 50px;
-  height:600px;
+  height:100vh;
 }
 
 .navbar {
+<<<<<<< HEAD
   background-color: transparent !important;
   border: 0px !important;
+=======
+  background-color:transparent !important;
+  border:0 !important;
+>>>>>>> 4f72e1ab115e817fa64c30bac1effa4e7d878799
 }
 
 .container {
@@ -46,4 +69,20 @@ h1 {
 .nav li a {
   padding-top: 15px !important;
   padding-bottom: 15px !important;
+}
+
+#lead {
+  max-width:100% ;
+}
+
+
+.headshot{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
