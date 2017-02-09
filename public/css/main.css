@@ -1,6 +1,10 @@
-@font-face {
-  font-family: Metropolis;
-  src: url("/fonts/Metropolis-Medium.otf");
+@@font-face {
+  font-family: metropolis;
+  src: url(./metropolis/Metropolis-Regular.otf);
+}
+
+h1 {
+  font-family: metropolis;
 }
 
 #land{
@@ -61,8 +65,13 @@ h3{
 }
 
 .navbar {
+<<<<<<< HEAD
+  background-color: transparent !important;
+  border: 0px !important;
+=======
   background-color:transparent !important;
   border:0 !important;
+>>>>>>> 4f72e1ab115e817fa64c30bac1effa4e7d878799
 }
 
 .container {
