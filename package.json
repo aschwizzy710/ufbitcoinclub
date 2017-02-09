@@ -11,5 +11,15 @@
     "body-parser": "^1.16.0",
     "express": "^4.14.1",
     "mongoose": "^4.8.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschwizzy710/ufbitcoinclub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aschwizzy710/ufbitcoinclub/issues"
+  },
+  "homepage": "https://github.com/aschwizzy710/ufbitcoinclub#readme",
+  "description": ""
 }

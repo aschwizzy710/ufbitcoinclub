@@ -1,8 +1,30 @@
+@font-face {
+  font-family: Metropolis;
+  src: url("/fonts/Metropolis-Medium.otf");
+}
+
+#land{
+background-image: url('/images/background.png');
+background-size: 100vw;
+}
+
 .ufbitcoin {
   display: flex;
   justify-content: center;
   margin-top: 125px;
 }
+
+li a{
+  font-family: Metropolis;
+  font-size: 18px;
+}
+
+.title {
+  color:#fff;
+  font-size: 90px;
+  font-family: Metropolis;
+}
+
 
 .btn-info {
   margin-top: 100px !important;
@@ -14,6 +36,7 @@
 
 .signup {
   height:600px;
+  font-family: Metropolis;
 }
 
 .input-group{
@@ -22,11 +45,12 @@
 
 .copy {
   padding-top: 50px;
-  height:600px;
+  height:100vh;
 }
 
 .navbar {
-  background-color:#fff !important;
+  background-color:transparent !important;
+  border:0 !important;
 }
 
 .container {
@@ -36,4 +60,20 @@
 .nav li a {
   padding-top: 15px !important;
   padding-bottom: 15px !important;
+}
+
+#lead {
+  max-width:100% ;
+}
+
+
+.headshot{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }

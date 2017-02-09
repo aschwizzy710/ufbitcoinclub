@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html ng-app="BitcoinClub">
+
 <head>
   <title>UF Bitcoin Club</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
+
 <body>
   <div ng-controller="MainController">
     <header>
       <nav class="navbar navbar-default navbar-fixed-top">
-        <a class="navbar-brand" href="#">Brand</a>
+        <a class="navbar-brand" href="#">UF BTC</a>
         <div class='container'>
-
-
           <ul class="nav nav-pills">
-
             <li role="presentation"><a href="#about">About</a></li>
             <li role="presentation"><a href="#leadership">Leadership</a></li>
-            <li role="presentation"><a href="#technology">Technology</a></li>
             <li role="presentation"><a href="#events">Events</a></li>
             <li role="presentation"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
+  <div class='copy' id='land'>
 
     <div class='ufbitcoin'>
       <img src='/images/GatorCoin.png' alt='UF Bitcoin Club'>
     </div>
 
-    <h1 class='text-center'>UF Bitcoin Club</h1>
+    <h1 class='text-center title'>UF Bitcoin Club</h1>
 
     <div class="col-md-12 text-center">
       <button type="button" class="btn btn-info btn-lg" name="button" data-toggle="modal" data-target="#myModal">Sign Up</button>
     </div>
 
-
     <!-- Signup Modal -->
     <div id="myModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
-
         <!-- Signup Modal content-->
         <div class="modal-content">
           <div class="modal-header">
@@ -65,51 +62,46 @@
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
-
       </div>
     </div>
-
+  </div>
     <div id='about'>
       <section class='copy'>
-        <h2>About The Club</h2>
+        <h2 class='text-center'>About The Club</h2>
         <h3>Our Purpose</h3>
-        <ol>
-          <li>Establish a community of like minds.</li>
-          <li>Help others understand the technology.</li>
-          <li>Help students get jobs in the industry.</li>
           <ol>
-
-          </section>
-        </div>
+            <li>Establish a community of like minds.</li>
+            <li>Help others understand the technology.</li>
+            <li>Help students get jobs in the industry.</li>
+          <ol>
+      </section>
+    </div>
 
         <div id='leadership'>
           <section class='copy' >
-            <h2>Our Leaders</h2>
+            <h2 class='text-center'>Our Leaders</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur doloribus ex ullam dolores recusandae nesciunt iste, possimus non odit ea sapiente similique blanditiis dolore quidem deleniti, quas culpa fugiat delectus.
             </p>
-            <ul>
-              <li>President</li>
-              <li>Vice-President</li>
-              <li>Treasurer</li>
-              <li>Faculty Advisor</li>
-              <li>Executive Advisor</li>
-              <li>Cofounder/Advisor</li>
-              <li>Cofounder/Advisor</li>
-            </ul>
-          </section>
-        </div>
-        <div id='technology'>
-          <section class='copy'>
-            <h2>Technology We Use</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur doloribus ex ullam dolores recusandae nesciunt iste, possimus non odit ea sapiente similique blanditiis dolore quidem deleniti, quas culpa fugiat delectus.
-            </p>
+            <div class="container" id='lead'>
+              <div class="row">
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (1 of 8).jpg" alt=""></div>
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (2 of 8).jpg" alt=""></div>
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (3 of 8).jpg" alt=""></div>
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (4 of 8).jpg" alt=""></div>
+              </div>
+              <div class="row">
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (5 of 8).jpg" alt=""></div>
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (6 of 8).jpg" alt=""></div>
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (7 of 8).jpg" alt=""></div>
+                <div class='headshot col-lg-3'><img class="img-responsive" src="images/Headshot (8 of 8).jpg" alt=""></div>
+              </div>
+            </div>
           </section>
         </div>
         <div id='events'>
           <section class='copy'>
-            <h2>Watch Out For Events!</h2>
+            <h2 class='text-center'>Watch Out For Events!</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur doloribus ex ullam dolores recusandae nesciunt iste, possimus non odit ea sapiente similique blanditiis dolore quidem deleniti, quas culpa fugiat delectus.
             </p>
@@ -117,7 +109,7 @@
         </div>
         <div id='contact'>
           <section class='copy'>
-            <h2>HMU Fam</h2>
+            <h2 class='text-center'>HMU Fam</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur doloribus ex ullam dolores recusandae nesciunt iste, possimus non odit ea sapiente similique blanditiis dolore quidem deleniti, quas culpa fugiat delectus.
             </p>
