@@ -1,3 +1,12 @@
+@@font-face {
+  font-family: metropolis;
+  src: url(./metropolis/Metropolis-Regular.otf);
+}
+
+h1 {
+  font-family: metropolis;
+}
+
 .ufbitcoin {
   display: flex;
   justify-content: center;
@@ -26,7 +35,8 @@
 }
 
 .navbar {
-  background-color:#fff !important;
+  background-color: transparent !important;
+  border: 0px !important;
 }
 
 .container {
