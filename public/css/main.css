@@ -1,6 +1,22 @@
-@@font-face {
+@font-face {
   font-family: metropolis;
-  src: url(./metropolis/Metropolis-Regular.otf);
+  src: url("/fonts/Metropolis-Medium.otf");
+}
+
+#about {
+  background-color: #EF6461;
+}
+
+#leadership {
+  background-color: #E4B363;
+}
+
+#events {
+  background-color: #6B7FD7;
+}
+
+#contact {
+  background-color: #BCEDF6;
 }
 
 h1 {
@@ -16,6 +32,12 @@ background-size: 100vw;
   display: flex;
   justify-content: center;
   margin-top: 125px;
+}
+
+.aboutpics {
+  text-align: center;
+  max-height: 300px;
+  max-width: 320px;
 }
 
 li a{
@@ -53,13 +75,10 @@ li a{
 }
 
 .navbar {
-<<<<<<< HEAD
   background-color: transparent !important;
   border: 0px !important;
-=======
   background-color:transparent !important;
   border:0 !important;
->>>>>>> 4f72e1ab115e817fa64c30bac1effa4e7d878799
 }
 
 .container {
@@ -85,4 +104,8 @@ li a{
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+}
+
+.hideme {
+    opacity:0;
 }
