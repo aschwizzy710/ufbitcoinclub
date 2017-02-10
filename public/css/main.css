@@ -15,6 +15,16 @@ li a{
   color: white;
 }
 
+li a:hover{
+  background-color: transparent !important;
+  color:#FFA90A !important;
+}
+
+.ufcoin img{
+  max-width: 40px;
+  max-height: 40px;
+}
+
 .ufbitcoin {
   display: flex;
   justify-content: center;
@@ -43,9 +53,11 @@ h2.text-center {
 
 }
 
-.btn-info:hover {
-  background-color: transparent !important;
+.btn-info:hover{
+  background-color: #D18B09 !important;
+  color: #E7E7E7 !important;
 }
+
 
 .signup {
   height:600px;
@@ -81,7 +93,7 @@ h2.text-center {
 }
 
 #home {
-  background-color:#07080C;
+  background-color:#0D1017;
 }
 
 #about{
