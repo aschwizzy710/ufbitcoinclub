@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: metropolis;
   src: url("/fonts/Metropolis-Medium.otf");
@@ -28,6 +29,7 @@ background-image: url('/images/background.png');
 background-size: 100vw;
 }
 
+
 .ufbitcoin {
   display: flex;
   justify-content: center;
@@ -46,27 +48,49 @@ li a{
   color: white;
 }
 
+li a:hover{
+  background-color: transparent !important;
+  color:#FFA90A !important;
+}
+
+.ufcoin img{
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.ufbitcoin {
+  display: flex;
+  justify-content: center;
+  padding-top:120px;
+  margin-top: 0px;
+}
+
 .title {
   color:#fff;
   font-size: 90px;
   font-family: Metropolis;
 }
 
-h2 {
+h2.text-center {
   font:120px;
-}
-
-h3{
-
+  margin: 0px !important;
+  padding-top: 50px;
 }
 
 .btn-info {
-  margin-top: 50px !important;
+  margin-top: 60px !important;
   margin-bottom: 120px !important;
   background-color: orange !important;
-  border-color: white !important;
+  border-color: #B56C0C !important;
   width:200px;
+
 }
+
+.btn-info:hover{
+  background-color: #D18B09 !important;
+  color: #E7E7E7 !important;
+}
+
 
 .signup {
   height:600px;
@@ -78,13 +102,12 @@ h3{
 }
 
 .copy {
-  padding-top: 50px;
+  padding-top: 0px;
   height:100vh;
-}
-
-.copy p{
+  font-family: metropolis;
   color: white;
 }
+
 
 .navbar {
   background-color: transparent !important;
@@ -103,9 +126,26 @@ h3{
   padding-bottom: 15px !important;
 }
 
+#home {
+  background-color:#0D1017;
+}
+
+#about{
+  background-color: #121521;
+}
+
+#leadership{
+  background-color: #1D2233;
+}
+
 #lead {
   max-width:100% ;
 }
+
+#events{
+  background-color: #2B324A;
+}
+
 
 
 .headshot{
