@@ -41,12 +41,13 @@ li a:hover{
 h2.text-center {
   font:120px;
   margin: 0px !important;
-  padding-top: 50px;
+  padding-top: 90px;
+  color:#fff;
+  font-size: 50px;
 }
 
 .btn-info {
   margin-top: 60px !important;
-  margin-bottom: 120px !important;
   background-color: orange !important;
   border-color: #B56C0C !important;
   width:200px;
@@ -77,12 +78,21 @@ h2.text-center {
   color: white;
 }
 
+p {
+  width:500px;
+}
 .navbar {
   background-color:transparent !important;
   border:0 !important;
 }
 
+.nav-pills {
+      margin-top: 9px;
+}
+
 .container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
@@ -94,6 +104,7 @@ h2.text-center {
 
 #home {
   background-color:#0D1017;
+  padding-bottom: 120px !important;
 }
 
 #about{
@@ -115,8 +126,8 @@ h2.text-center {
 
 
 .headshot{
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 150px;
+  max-width:150px;
 }
 
 .row{
