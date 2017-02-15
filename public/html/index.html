@@ -6,12 +6,15 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-
 <body>
   <div ng-controller="MainController">
     <header>
       <nav class="navbar navbar-default navbar-fixed-top">
-        <a class="navbar-brand" href="#">UF BTC</a>
+        <a class="navbar-brand" href="#">
+          <div class='ufcoin'>
+            <img src='/images/GatorCoin2.png' alt='UF Bitcoin Club'>
+          </div>
+        </a>
         <div class='container'>
           <ul class="nav nav-pills">
             <li role="presentation"><a href="#about">About</a></li>
@@ -22,17 +25,17 @@
         </div>
       </nav>
     </header>
-  <div class='copy' id='land'>
-
-    <div class='ufbitcoin'>
-      <img src='/images/GatorCoin.png' alt='UF Bitcoin Club'>
-    </div>
+    <div class='copy' id='home'>
+      <div class='ufbitcoin'>
+        <img src='/images/GatorCoin2.png' alt='UF Bitcoin Club'>
+      </div>
 
     <h1 class='text-center title'>Bitcoin Club</h1>
 
-    <div class="col-md-12 text-center">
-      <button type="button" class="btn btn-info btn-lg" name="button" data-toggle="modal" data-target="#myModal">Sign Up</button>
-    </div>
+
+      <div class="col-md-12 text-center">
+        <button type="button" class="btn btn-info btn-lg" name="button" data-toggle="modal" data-target="#myModal">Sign Up</button>
+      </div>
 
     <!-- Signup Modal -->
     <div id="myModal" class="modal fade" role="dialog">
@@ -116,17 +119,14 @@
             </p>
           </section>
         </div>
-        <div id='contact'>
-          <section class='copy'>
-            <h2 class='text-center'>HMU Fam</h2>
+        <div id='contact ' >
+          <section class='copy' id='land'>
+            <h2  class='text-center'>HMU Fam</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur doloribus ex ullam dolores recusandae nesciunt iste, possimus non odit ea sapiente similique blanditiis dolore quidem deleniti, quas culpa fugiat delectus.
             </p>
           </section>
         </div>
-        <footer>
-          <h5>Some footer stuff</h5>
-        </footer>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>

@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: metropolis;
   src: url("/public/fonts/Metropolis-Medium.otf");
@@ -39,11 +40,27 @@ background-size: 100vw;
   max-height: 300px;
   max-width: 320px;
 }
-
 li a{
   font-family: Metropolis;
   font-size: 18px;
   color: white;
+}
+
+li a:hover{
+  background-color: transparent !important;
+  color:#FFA90A !important;
+}
+
+.ufcoin img{
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.ufbitcoin {
+  display: flex;
+  justify-content: center;
+  padding-top:120px;
+  margin-top: 0px;
 }
 
 .title {
@@ -52,21 +69,27 @@ li a{
   font-family: Metropolis;
 }
 
-h2 {
+h2.text-center {
   font:120px;
-}
-
-h3{
-
+  margin: 0px !important;
+  padding-top: 90px;
+  color:#fff;
+  font-size: 50px;
 }
 
 .btn-info {
-  margin-top: 50px !important;
-  margin-bottom: 120px !important;
+  margin-top: 60px !important;
   background-color: orange !important;
-  border-color: white !important;
+  border-color: #B56C0C !important;
   width:200px;
+
 }
+
+.btn-info:hover{
+  background-color: #D18B09 !important;
+  color: #E7E7E7 !important;
+}
+
 
 .signup {
   height:600px;
@@ -78,7 +101,7 @@ h3{
 }
 
 .copy {
-  padding-top: 50px;
+  padding-top: 0px;
   height:100vh;
 }
 
@@ -86,6 +109,9 @@ h3{
   color: white;
 }
 
+p {
+  width:500px;
+}
 .navbar {
   background-color: transparent !important;
   border: 0px !important;
@@ -93,7 +119,13 @@ h3{
   border:0 !important;
 }
 
+.nav-pills {
+      margin-top: 9px;
+}
+
 .container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
@@ -103,14 +135,32 @@ h3{
   padding-bottom: 15px !important;
 }
 
+#home {
+  background-color:#0D1017;
+  padding-bottom: 120px !important;
+}
+
+#about{
+  background-color: #121521;
+}
+
+#leadership{
+  background-color: #1D2233;
+}
+
 #lead {
   max-width:100% ;
 }
 
+#events{
+  background-color: #2B324A;
+}
+
+
 
 .headshot{
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 150px;
+  max-width:150px;
 }
 
 .row{
