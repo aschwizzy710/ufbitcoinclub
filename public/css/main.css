@@ -1,19 +1,24 @@
 
 @font-face {
-  font-family: metropolis;
-  src: url("/public/fonts/Metropolis-Medium.otf");
+  font-family: 'metropolis';
+  src: url("./public/fonts/Metropolis-Medium.otf");
 }
 
-#about {
-  background-color: #EF6461;
+#home {
+  background-color:#0D1017;
+  padding-bottom: 120px !important;
 }
 
-#leadership {
-  background-color: #E4B363;
+#about{
+  background-color: #121521;
 }
 
-#events {
-  background-color: #6B7FD7;
+#leadership{
+  background-color: #1D2233;
+}
+
+#events{
+  background-color: #2B324A;
 }
 
 #contact {
@@ -21,7 +26,7 @@
 }
 
 h1 {
-  font-family: metropolis;
+  font-family: 'metropolis';
 }
 
 #land{
@@ -35,14 +40,12 @@ background-size: 100vw;
   margin-top: 110px;
 }
 
-.aboutpics {
-  text-align: center;
-  max-height: 300px;
-  max-width: 320px;
+p{
+  padding: 0px
 }
 
 li a{
-  font-family: Metropolis;
+  font-family: metropolis;
   font-size: 18px;
   color: white;
 }
@@ -67,7 +70,7 @@ li a:hover{
 .title {
   color:#fff;
   font-size: 90px;
-  font-family: Metropolis;
+  font-family: metropolis;
 }
 
 h2.text-center {
@@ -76,6 +79,11 @@ h2.text-center {
   padding-top: 90px;
   color:#fff;
   font-size: 50px;
+}
+
+.copy {
+  padding: 50px 20px;
+  text-align:center;
 }
 
 .btn-info {
@@ -94,39 +102,42 @@ h2.text-center {
 
 .signup {
   height:600px;
-  font-family: Metropolis;
+  font-family: metropolis;
 }
 
 .input-group{
   margin-top: 50px;
 }
 
-.copy {
+.section {
   padding-top: 0px;
   height:100vh;
   font-family: metropolis;
   color: white;
 }
 
-
-p {
-  width:500px;
+.leadSection{
+  height: 100%;
 }
 
 .navbar {
   background-color: transparent !important;
   border: 0px !important;
-  background-color:transparent !important;
+  background-color: transparent !important;
   border:0 !important;
 }
 
 .nav-pills {
-      margin-top: 9px;
+      margin-top: 7px;
 }
 
 .container {
   padding-right: 0px !important;
   padding-left: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.row{
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
@@ -136,39 +147,33 @@ p {
   padding-bottom: 15px !important;
 }
 
-#home {
-  background-color:#0D1017;
-  padding-bottom: 120px !important;
+#aboutIcons{
+  display:flex;
+  justify-content: space-between;
+  margin-top:50px;
 }
 
-#about{
-  background-color: #121521;
+.aboutpics {
+  text-align: center;
+  max-height: 170px;
+  max-width: 190px;
 }
 
-#leadership{
-  background-color: #1D2233;
-}
-
-#lead {
+.lead {
   max-width:100% ;
+  display:flex;
+  justify-content: space-between;
 }
 
-#events{
-  background-color: #2B324A;
+.row.lead{
+  margin-top: 40px;
+  margin-bottom: 20px
 }
 
-
-
-.headshot{
+/*.headshot{
   max-height: 150px;
   max-width:150px;
-}
-
-.row{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
+}*/
 
 .hideme {
     opacity:0;
