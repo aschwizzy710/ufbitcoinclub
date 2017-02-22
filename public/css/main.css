@@ -1,8 +1,8 @@
 
-@font-face {
+/*@font-face {
   font-family: 'metropolis';
   src: url("./public/fonts/Metropolis-Medium.otf");
-}
+}*/
 
 #home {
   background-color:#0D1017;
@@ -26,7 +26,7 @@
 }
 
 h1 {
-  font-family: 'metropolis';
+  font-family: Aldrich;
 }
 
 #land{
@@ -45,7 +45,7 @@ p{
 }
 
 li a{
-  font-family: metropolis;
+  font-family: Aldrich;
   font-size: 18px;
   color: white;
 }
@@ -70,7 +70,7 @@ li a:hover{
 .title {
   color:#fff;
   font-size: 90px;
-  font-family: metropolis;
+  font-family: Aldrich;
 }
 
 h2.text-center {
@@ -102,7 +102,7 @@ h2.text-center {
 
 .signup {
   height:600px;
-  font-family: metropolis;
+  font-family: Aldrich;
 }
 
 .input-group{
@@ -112,7 +112,7 @@ h2.text-center {
 .section {
   padding-top: 0px;
   height:100vh;
-  font-family: metropolis;
+  font-family: Aldrich;
   color: white;
 }
 
