@@ -4,7 +4,7 @@
   src: url("./public/fonts/Metropolis-Medium.otf");
 }
 
-#home {
+#land {
   background-color:#0D1017;
   padding-bottom: 120px !important;
 }
@@ -29,7 +29,7 @@ h1 {
   font-family: 'metropolis';
 }
 
-#land{
+#home{
 background-image: url('/images/background.png');
 background-size: 100vw;
 }
