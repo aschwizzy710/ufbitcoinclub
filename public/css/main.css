@@ -161,6 +161,7 @@ h2.text-center {
 }
 
 .lead {
+  margin-bottom: 0px !important;
   max-width:100% ;
   display:flex;
   justify-content: space-between;
@@ -168,11 +169,16 @@ h2.text-center {
 
 .row.lead{
   margin-top: 40px;
-  margin-bottom: 20px
 }
 
 .sponsors{
-    max-width:20% ;
+    height:125px;
+    display:flex;
+    align-items:center;
+}
+
+.sponsorLogo{
+  max-width: 100%;
 }
 
 /*.headshot{
