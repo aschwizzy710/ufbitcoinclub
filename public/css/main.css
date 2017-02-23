@@ -100,6 +100,7 @@ h2.text-center {
 }
 
 
+
 .signup {
   height:600px;
   font-family: metropolis;
@@ -117,7 +118,7 @@ h2.text-center {
 }
 
 .leadSection{
-  height: 100%;
+  height: 100vm;
 }
 
 .navbar {
@@ -168,6 +169,10 @@ h2.text-center {
 .row.lead{
   margin-top: 40px;
   margin-bottom: 20px
+}
+
+.sponsors{
+    max-width:20% ;
 }
 
 /*.headshot{
