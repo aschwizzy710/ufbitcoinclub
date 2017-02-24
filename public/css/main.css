@@ -74,7 +74,7 @@ li a:hover{
 }
 
 h2.text-center {
-  font:120px;
+  font:100px;
   margin: 0px !important;
   padding-top: 90px;
   color:#fff;
@@ -99,7 +99,9 @@ h2.text-center {
   color: #E7E7E7 !important;
 }
 
-
+.btn-ctn{
+  margin-top: 20px !important;
+}
 
 .signup {
   height:600px;
@@ -161,10 +163,11 @@ h2.text-center {
 }
 
 .lead {
+  margin-top: 20px;
   margin-bottom: 0px !important;
   max-width:100% ;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .row.lead{
@@ -181,23 +184,26 @@ h2.text-center {
   max-width: 100%;
 }
 
-/*.headshot{
-  max-height: 150px;
-  max-width:150px;
-}*/
+.contactBtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-responsive .headshot{
+  height: 90%;
+}
 
 .hideme {
     opacity:0;
 }
 
 .bounce {
-  position: absolute;
+  position: relative;
   text-align: center;
   left:50%;
   bottom:0;
   background:;
   left:50%;
-  margin-top:-25px;
     margin-left:-25px;
     width:50px;
   -webkit-animation:bounce 1s infinite;
