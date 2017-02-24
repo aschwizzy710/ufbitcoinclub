@@ -77,6 +77,10 @@ li a:hover{
   margin-top: 0px;
 }
 
+.modal-content {
+  color: black;
+}
+
 .title {
   color:#fff;
   font-size: 90px;
