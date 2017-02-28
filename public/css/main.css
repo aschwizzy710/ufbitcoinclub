@@ -103,6 +103,7 @@ a.github{
   font-size: 10px;
 }
 
+
 .copy {
   padding: 20px 0px;
   text-align:center;
@@ -174,8 +175,8 @@ a.github{
 
 .aboutpics {
   text-align: center;
-  max-height: 170px;
-  max-width: 190px;
+  max-height: 180px;
+  max-width:200px;
   margin-left: 70px;
   margin-right: 70px;
 }
