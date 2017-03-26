@@ -169,7 +169,7 @@ a.github{
 
 #aboutIcons{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top:50px;
 }
 
@@ -177,8 +177,8 @@ a.github{
   text-align: center;
   max-height: 180px;
   max-width:200px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .lead {
@@ -220,6 +220,33 @@ a:hover {
 /*beginning of hoverover effect for leadership images*/
 
 /*.hovereffect {
+span.text-content{
+ background: rgba(0,0,0,0.5);
+ color: white;
+ cursor: pointer;
+ display: table;
+ height: 150px;
+ left: 0;
+ position: absolute;
+ top: 0;
+ width: 150px;
+ opacity: 0;
+-webkit-transition: opacity 500ms;
+-moz-transition: opacity 500ms;
+-o-transition: opacity 500ms;
+transition: opacity 500ms;
+}
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+.hovereffect {
+>>>>>>> c04f831656e74fd82a9c17ee6c7a237f1baf43af
 width:100%;
 height:100%;
 float:left;
